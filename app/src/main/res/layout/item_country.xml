@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@android:color/white">  <!-- Opcional, para un fondo de tarjeta blanco -->
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="16dp">
+
+<ImageView
+    android:id="@+id/imageViewFlag"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:scaleType="centerCrop"
+    android:adjustViewBounds="true" />
+
+<TextView
+    android:id="@+id/textViewCountryName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/imageViewFlag"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:layout_marginTop="8dp" />
+
+<TextView
+    android:id="@+id/textViewNativeName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textViewCountryName"
+    android:layout_marginTop="4dp" />
+
+<TextView
+    android:id="@+id/textViewCurrency"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textViewNativeName"
+    android:layout_marginTop="4dp" />
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/fabCall"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+android:layout_marginEnd="8dp"
+android:layout_marginBottom="8dp"
+android:src="@drawable/ic_phone"
+android:contentDescription="@string/call"
+app:backgroundTint="@color/blue_500"
+app:tint="@android:color/white" />
+
+</RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>

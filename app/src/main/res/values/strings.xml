@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">The Countries APP</string>
+    <string name="select_region">Select a region:</string>
+    <string name="list_countries">List the countries</string>
+    <string-array name="regions_array">
+        <item>Africa</item>
+        <item>Americas</item>
+        <item>Asia</item>
+        <item>Europe</item>
+        <item>Oceania</item>
+    </string-array>
+    <string name="call">Call</string>
+</resources>

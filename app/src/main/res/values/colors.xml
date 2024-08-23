@@ -1,0 +1,7 @@
+<resources>
+    <color name="blue_500">#1976D2</color> <!-- Azul principal -->
+    <color name="blue_700">#1565C0</color> <!-- Azul oscuro -->
+    <color name="teal_200">#03DAC5</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

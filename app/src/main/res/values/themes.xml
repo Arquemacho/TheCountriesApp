@@ -1,0 +1,9 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.TheCountriesAPP" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryDark">@color/blue_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>
